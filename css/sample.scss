@@ -515,6 +515,7 @@ h1{
   }
 
   #main {
+    padding-right: 20px;
     h2 {
       color: $blue1;
       border-bottom: 3px solid $blue1;
@@ -532,13 +533,14 @@ h1{
     }
 
     .company_details {
-      @include fontsize(15);
+      @include fontsize(14);
       th, td{
         color: #626262;
-        padding: 20px 0;
+        padding: 20px 20px 20px 0;
       }
       td {
         font-size: 1.4rem;
+        padding: 20px 0;
       }
     }
 
@@ -570,9 +572,9 @@ h1{
         display: none;
       }
       h3 {
-        background-color: $gray_blue;
+        background-color: #f3f9fb;
+        color: #42b9d0;
         padding: 15px;
-        color: $blue1;
         letter-spacing: 0.2rem;
         font-weight: bold;
         margin-bottom: 0px;
@@ -583,6 +585,7 @@ h1{
         li {
           border-bottom: 1px solid #e5e5e5;
           padding: 10px 10px 10px 20px;
+          margin: 0;
           background-image: url("../images/news/side_arrow.png");
           background-repeat: no-repeat;
           background-position: 8px center;
@@ -592,6 +595,7 @@ h1{
                 background-image: url("../images/news/side_arrow@2x.png");
               }
           a {
+            color: #339fd1;
             text-decoration: none;
           }
         }
